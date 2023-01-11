@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:shopping_with_provider/Helper/db_helper.dart';
 import 'package:shopping_with_provider/Models/cart_model.dart';
-import 'package:sqflite/sqflite.dart';
+
 
 class CartProvider with ChangeNotifier {
   DBHelper db = DBHelper();
